@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Iandan Bett | Communication & Media Professional</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #f5f7fa;
+        }
+
+        header {
+            background: #0b1f3a;
+            color: white;
+            padding: 20px 8%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #4da3ff;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #0b1f3a, #164b80);
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero h2 {
+            font-size: 28px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            color: #d7eaff;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 13px 28px;
+            background: white;
+            color: #0b1f3a;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #4da3ff;
+            color: white;
+        }
+
+        section {
+            padding: 70px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 40px;
+            color: #0b1f3a;
+        }
+
+        .about {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            color: #164b80;
+            margin-bottom: 12px;
+        }
+
+        .experience {
+            background: white;
+        }
+
+        .job {
+            max-width: 900px;
+            margin: 0 auto 30px;
+            padding: 25px;
+            border-left: 5px solid #164b80;
+            background: #f5f7fa;
+        }
+
+        .job h3 {
+            color: #0b1f3a;
+        }
+
+        .job p {
+            margin-top: 8px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        footer {
+            background: #0b1f3a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            .hero h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">IANDAN BETT</div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div>
+        <h1>Iandan Bett</h1>
+
+        <h2>Communication & Media Professional</h2>
+
+        <p>
+            Journalism and Mass Communication graduate with professional
+            experience in communication, media production, social media,
+            public relations, photography and digital storytelling.
+        </p>
+
+        <a href="#about" class="button">Explore My Portfolio</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about">
+        <p>
+            I am a communication and media professional with a Bachelor of
+            Arts in Journalism and Mass Communication from Chuka University.
+            I have professional experience in media production, digital
+            communication, social media management, public relations,
+            photography and video production.
+        </p>
+
+        <br>
+
+        <p>
+            I am passionate about strategic communication, digital
+            storytelling and creating engaging content for diverse audiences.
+        </p>
+    </div>
+</section>
+
+<section class="experience" id="experience">
+    <h2 class="section-title">Professional Experience</h2>
+
+    <div class="job">
+        <h3>Communication & Branding Intern</h3>
+        <strong>State Department for Housing and Urban Development</strong>
+
+        <p>
+            Creating communication and branding content, developing social
+            media posts, writing press releases, photography, videography
+            and supporting digital communication activities.
+        </p>
+    </div>
+
+    <div class="job">
+        <h3>TV Producer / Media Professional</h3>
+        <strong>Kingdom TV – Ephod Media</strong>
+
+        <p>
+            Produced and edited television and digital content, managed
+            social media materials, developed promotional content and
+            supported public relations and media communication activities.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Professional Skills</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Communication</h3>
+            <p>
+                Strategic communication, public relations, press releases,
+                media relations and professional writing.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Digital Media</h3>
+            <p>
+                Social media management, digital storytelling and online
+                content creation.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Video Production</h3>
+            <p>
+                Video production, editing, photography and multimedia
+                storytelling.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Creative Design</h3>
+            <p>
+                Adobe Premiere Pro, Photoshop, Illustrator, Canva and CapCut.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Public Relations</h3>
+            <p>
+                Media engagement, promotional campaigns, press communication
+                and event support.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Microsoft Office</h3>
+            <p>
+                Microsoft Word, PowerPoint, Excel and other digital
+                productivity tools.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact">
+        <p><strong>Email:</strong> iandankiprop@gmail.com</p>
+        <p><strong>Location:</strong> Eldoret, Kenya</p>
+
+        <a href="mailto:iandankiprop@gmail.com" class="button">
+            Send Me an Email
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Iandan Bett. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
